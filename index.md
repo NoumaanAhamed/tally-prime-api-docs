@@ -1,5 +1,7 @@
 # TallyPrime XML API Documentation
 
+Refer [Tally API Workflow](./workflow.md) for a step-by-step guide on using Tally XML API.
+
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
