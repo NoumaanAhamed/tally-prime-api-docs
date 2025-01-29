@@ -19,8 +19,8 @@ This API follows a sequential workflow where each step depends on the previous o
 
 #### Steps:
 
-1. Create Groups →
-2. Create Ledgers →
+1. Create Groups
+2. Create Ledgers
 3. Add Details (Addresses, Contacts)
 
 #### Example Flow:
@@ -44,9 +44,9 @@ Add Address to Customer ABC Ledger
 
 #### Steps:
 
-1. Create Stock Groups →
-2. Create Units of Measure →
-3. Create Stock Items →
+1. Create Stock Groups
+2. Create Units of Measure
+3. Create Stock Items
 4. Create Godowns
 
 #### Example Flow:
@@ -72,7 +72,7 @@ Create Godown (Warehouse A)
 
 #### Steps:
 
-1. Create Sales/Purchase Vouchers →
+1. Create Sales/Purchase Vouchers
 2. Alter/Cancel Vouchers
 
 #### Example Flow:
@@ -95,7 +95,7 @@ Cancel the voucher if goods are returned
 
 #### Steps:
 
-1. Fetch Standard Reports →
+1. Fetch Standard Reports
 2. Create Custom Reports
 
 #### Example Flow:
@@ -111,16 +111,6 @@ Generate Custom Sales Report (TDL)
 **Why?**
 
 - Reports validate data accuracy (e.g., Trial Balance checks Debit = Credit).
-
-### Dependency Diagram
-
-```mermaid
-graph TD
-  A[Prerequisites] --> B[Accounting Masters]
-  B --> C[Inventory Masters]
-  C --> D[Transactions]
-  D --> E[Reports]
-```
 
 ### Key Rules
 
